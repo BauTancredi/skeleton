@@ -1,0 +1,24 @@
+.skeleton__avatar {
+  width: 10em;
+  margin: 1em;
+  height: 8em !important;
+  border-radius: 15px;
+}
+.skeleton__title {
+  width: 10em;
+  height: 4em;
+}
+
+.skeleton__mail {
+  width: 7em;
+}
+
+.skeleton__birth {
+  width: 7em;
+}
+
+@media (max-width: 600px) {
+  .skeleton__title {
+    width: 7em;
+  }
+}
